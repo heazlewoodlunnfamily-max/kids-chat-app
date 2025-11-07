@@ -1,0 +1,18 @@
+{
+  "name": "kids-chat-app",
+  "version": "1.0.0",
+  "description": "Simple real-time group chat for kids",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "keywords": ["chat", "kids", "websocket"],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "ws": "^8.14.2",
+    "cors": "^2.8.5"
+  }
+}
